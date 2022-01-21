@@ -1,4 +1,4 @@
-var img = document.getElementById("popcat1");
+var img = document.getElementById("Cute1");
 var count = document.getElementById("score");
 var malaysiaScore = document.getElementById('my_score');
 var score = 0;
@@ -9,24 +9,24 @@ var hk_score = 1000, tw_score = 430, th_score = 200, jp_score = 150, fi_score = 
 // mouseclick event
 img.addEventListener("mousedown", function(){
     increaseScore();
-    img.src = 'popcat2.png';
+    img.src = 'Cute2.png';
     audio.play();
 });
     
 img.addEventListener("mouseup", function(){
-    img.src = 'popcat1.png';
+    img.src = 'Cute1.png';
     audio.play();
 });
 
 // touch event
 img.addEventListener("touchstart", function(){
     increaseScore();
-    img.src = 'popcat2.png';
+    img.src = 'Cute2.png';
     audio.play();
 });
 
 img.addEventListener("touchmove", function(){
-    img.src = 'popcat1.png';
+    img.src = 'Cute1.png';
      audio.play();
 });
 
